@@ -6,7 +6,6 @@ Servo servo;
 void setup() {
 	// ソケット番号, パルスの最小値と最大値
 	servo.attach(SERVO_PIN);
-	Serial.begin(9600);
 }
 
 void loop() {
