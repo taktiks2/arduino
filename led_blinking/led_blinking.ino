@@ -1,5 +1,7 @@
-int LED_SOCKET = 10;
-int INTERVAL = 1000;
+#include <SD.h>
+
+int LED_SOCKET = 4;
+int INTERVAL = 500;
 
 void setup() {
   // put your setup code here, to run once:
